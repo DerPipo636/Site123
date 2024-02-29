@@ -1,0 +1,72 @@
+section {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+#main{
+    background-image: url(https://getwallpapers.com/wallpaper/full/4/e/1/367999.jpg);
+}
+#about{
+    background-image: url(https://th.bing.com/th/id/R.5c1046ee3420250dac146e76926c4688?rik=Ko9nyQF6Bl%2f8Sw&pid=ImgRaw&r=0);
+}
+#skills{
+    background-image: url(https://th.bing.com/th/id/R.497f911126e29d0bed3ac07527d623b1?rik=VySXbnhk%2bzuIRw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f6%2f4%2ff%2f531090.jpg&ehk=q%2bfkoHEtdieISxg1O%2bhizQNeobIVRE4%2fIMpOvYgscOA%3d&risl=&pid=ImgRaw&r=0);
+}
+#works{
+    background-image: url(https://th.bing.com/th/id/R.820d4c9740c21cc0968513d45b4241b9?rik=i%2bMtpdro8kGGzg&pid=ImgRaw&r=0);
+    }
+#comments{
+    background-image: url(https://wallpaperaccess.com/full/2799652.jpg);
+}
+.main-block, .about-block, .skills-block,
+.works-block, .comments-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+.main-block{
+    flex-direction: column;
+    height: 100vh;
+}
+.main-content{
+    background-image:
+    url(https://th.bing.com/th/id/R.172cd157ef572c72733b5de1eed9aa33?rik=jzZ5nAeCqMt3Ew&riu=http%3a%2f%2fweknowyourdreams.com%2fimages%2fwhite%2fwhite-08.jpg&ehk=g9vbi0yL9Y8UX0cDssJDLyEVGw7UcgnGLrMmtEyL9lU%3d&risl=&pid=ImgRaw&r=0);
+   background-repeat: no-repeat;
+   background-size: contain;
+   width: 849px;
+   height: 223px;
+   padding-left: 30px; 
+}
+.main-title{
+    padding-top: 67px;
+    color: #2B2D35;
+font-size: 80px;
+}
+.main-subtitle{
+    color: black;
+    font-size: 20px;
+    font-family: 'Comfortaa';
+}
+.button{
+    width: 200px;
+    height: 60px;
+    border-radius: 100px;
+    border: 2px solid #000;
+    background: #BBFF2C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 0 #000000;
+    margin-top: 20px;
+}
+.button a {
+    font-size: 20px;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+.button:hover{
+    background: #a0d826;
+}

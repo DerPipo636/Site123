@@ -17,7 +17,7 @@ menu.addEventListener('click', function(event){
         body.classList.add("off-scroll");
     }
     else{
-        body.classList.remove("off-scroll");
+        body.classList.remove("off-scroll");8
     }
 });
 let classLink = '.main-link';
